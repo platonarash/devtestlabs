@@ -1,0 +1,15 @@
+{
+    "$schema": "https://raw.githubusercontent.com/Azure/azure-devtestlab/master/schemas/2015-01-01/dtlArtifacts.json",
+    "title": "Remote Gnu Desktop",
+    "publisher": "CSA",
+    "description": "Install Gnu Desktop on Linux",
+    "tags": [
+        "Scilab",
+        "Linux"
+    ],
+    "iconUri": "https://upload.wikimedia.org/wikipedia/commons/2/24/Scilab-WebSite.png",
+    "targetOsType": "Linux",
+    "runCommand": {
+        "commandToExecute": "['sh linux_rdp_install_v1.sh']"
+    }
+}
