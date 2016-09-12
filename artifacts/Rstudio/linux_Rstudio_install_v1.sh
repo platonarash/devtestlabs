@@ -4,11 +4,11 @@ set -e
 
 if [ -f /usr/bin/apt ] ; then
     echo "Using APT package manager"
-    apt-get -y update && apt-get -y install ghc ghc-prof ghc-doc
+    apt-get -y update && apt-get -y install r-base
 elif [ -f /usr/bin/yum ] ; then 
     echo "Using YUM package manager"
 
     yum -y update
-    yum install -y ghc
+    yum install -y r-base
 
 fi
