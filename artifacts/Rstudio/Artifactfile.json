@@ -1,0 +1,15 @@
+{
+    "$schema": "https://raw.githubusercontent.com/Azure/azure-devtestlab/master/schemas/2015-01-01/dtlArtifacts.json",
+    "title": "Haskell",
+    "publisher": "CSA",
+    "description": "Install Haskell on Linux",
+    "tags": [
+        "Haskell",
+        "Linux"
+    ],
+    "iconUri": "https://www.iconattitude.com/icons/open_icon_library/apps/png/256/development-haskell.png",
+    "targetOsType": "Linux",
+    "runCommand": {
+        "commandToExecute": "['sh linux_haskell_install_v1.1.sh']"
+    }
+}
