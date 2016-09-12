@@ -12,3 +12,4 @@ elif [ -f /usr/bin/yum ] ; then
     yum install -y ghc
 
 fi
+
