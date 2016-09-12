@@ -10,6 +10,6 @@
     "iconUri": "https://www.iconattitude.com/icons/open_icon_library/apps/png/256/development-haskell.png",
     "targetOsType": "Linux",
     "runCommand": {
-        "commandToExecute": "['sh linux_haskell_install_v1.sh']"
+        "commandToExecute": "['sh linux_haskell_install_v1.1.sh']"
     }
 }
