@@ -1,21 +1,10 @@
 #!/bin/bash
 
-###
-# Arguments:
-#
-# $1    Swap file size
-#
-###
+apt-key adv --keyserver packages.microsoft.com --recv-keys EB3E94ADBE1229CF
 
-set -e
+apt-key adv --keyserver packages.microsoft.com --recv-keys 52E16F86FEE04B979B07E28DB02C46DF417A0893
 
-# Generate a file name based on the current date to avoid naming conflicts
-SIZE="$1"
-FILENAME="$(date +%s | sha256sum | base64 | head -c 32)"
-FILEPATH="/mnt/$FILENAME"
+apt-get update
 
-fallocate -l $SIZE $FILEPATH
-chmod 600 $FILEPATH
-mkswap $FILEPATH
-swapon $FILEPATH
-echo “$FILEPATH  none  swap  sw  0 0” >> /etc/fstab
+apt-get install dotnet-sdk-2.1.105 
+
