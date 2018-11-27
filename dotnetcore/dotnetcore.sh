@@ -12,3 +12,9 @@ sudo apt-get install -y dotnet-sdk-2.1
 sudo apt install -y nodejs npm
 sudo apt install -y npm
 
+
+#terraform
+sudo apt-get install -y unzip
+wget https://releases.hashicorp.com/terraform/0.11.10/terraform_0.11.10_linux_amd64.zip
+unzip terraform_0.11.10_linux_amd64.zip
+sudo mv terraform /usr/local/bin/
