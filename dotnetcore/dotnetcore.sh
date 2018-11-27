@@ -7,3 +7,8 @@ sudo sh -c 'echo "deb [arch=amd64] https://packages.microsoft.com/repos/microsof
 sudo apt-get update
 sudo apt-get install -y dotnet-sdk-2.1
 
+
+#node
+sudo apt install -y nodejs npm
+sudo apt install -y npm
+
